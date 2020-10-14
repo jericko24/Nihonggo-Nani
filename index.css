@@ -1,12 +1,69 @@
 body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
-
 header {
-    background-color: cadetblue;
+    background-color:yellow;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1, h2{
+    font-family: 'Staatliches', cursive;
+}
+header h1{
+    color:red;
+    font-size: 100px;
+    
+}
+header img{
+    border-radius: 175px;
+    width: 350px;
+    border: 10px solid black;
 }
 
-header h1{
-    color: cyan;
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px;
+   
+}
+
+h2{
+    font-size: 30px;
+    color:yellow;
+    background-color: black;
+    margin: 40px 0 10px;
+}
+
+a {
+    background-color: black;
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+}
+
+
+footer{
+    text-align: center;
+    color:red;
+    background-color: yellow;
+    padding :50px;
+
+}
+
+
+footer p{
+    margin:0;
+}
+
+p.caption{
+    color: gray;
+    font-style: italic;
+    margin-top: 0;
+    font-size: 15px;
 }
